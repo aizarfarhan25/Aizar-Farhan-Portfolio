@@ -18,8 +18,8 @@
   }
 }
 
-@for $i from 1 through 51 {
+@for $i from 1 through 53 {
   .text-animate._#{$i} {
-    animation-delay: #{$i / 15}s;
+    animation-delay: #{$i / 16}s;
   }
 }

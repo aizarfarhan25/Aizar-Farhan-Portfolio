@@ -1,59 +1,58 @@
 .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+  font-family: 'Coolvetica';
+
+  &:hover {
+    transform: translateY(-10px);
   }
-  
-  .project-card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    width: 250px;
-    padding: 20px;
-    transition: transform 0.2s ease-in-out;
-    font-family: 'Coolvetica';
-  
-    &:hover {
-      transform: translateY(-10px);
+
+  .project-header {
+    font-size: 15px;
+    color: gray;
+    text-align: right;
+  }
+
+  .project-content {
+    h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: rgb(49, 176, 250);
     }
-  
-    .project-header {
-      font-size: 15px;
-      color: gray;
-      text-align: right;
+
+    p {
+      font-size: 12px;
+      color: #333;
+      margin: 5px 0;
     }
-  
-    .project-content {
-      h2 {
-        font-size: 18px;
-        margin-bottom: 10px;
-        color: rgb(49, 176, 250);
+
+    button {
+      background: none;
+      border: none;
+      color: #333; /* atau sesuai warna teks yang diinginkan */
+      font-size: 12px; /* atau ukuran yang diinginkan */
+      padding: 0;
+      cursor: pointer;
+    }
+    a {
+      text-decoration: none;
+
+      &:hover button {
+        color: #ffd700;
+        z-index: 100;
       }
-  
-      p {
-        font-size: 12px;
-        color: #333;
-        margin: 5px 0;
-      }
-
-      button {
-        background: none;
-        border: none;
-        color: #333; /* atau sesuai warna teks yang diinginkan */
-        font-size: 12px; /* atau ukuran yang diinginkan */
-        padding: 0;
-        cursor: pointer;
-
-    }
-    a{
-        text-decoration: none;
-
-        &:hover button {
-            color: #ffd700;
-            z-index: 100;
-        }
-    }
     }
   }
+}

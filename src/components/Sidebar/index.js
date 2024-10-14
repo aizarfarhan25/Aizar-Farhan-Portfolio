@@ -4,8 +4,17 @@ import './index.scss'
 import LogoS from '../../assets/images/font-A.png'
 import LogoSubtitle from '../../assets/images/logo-sub1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser, faProjectDiagram } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {
+  faEnvelope,
+  faHome,
+  faUser,
+  faProjectDiagram,
+} from '@fortawesome/free-solid-svg-icons'
+import {
+  faGithub,
+  faInstagram,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -53,10 +62,10 @@ const Sidebar = () => (
         </a>
       </li>
       <li>
-        <a  
+        <a
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/aizarfarhan?tab=overview&from=2024-09-01&to=2024-09-24"
+          href="https://github.com/aizarfarhan25"
         >
           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
         </a>

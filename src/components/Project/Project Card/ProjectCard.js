@@ -18,7 +18,7 @@ const Project = () => {
       description:
         ' is a mobile application that provides users with information about various types of plants.',
       time: '2023',
-      link: 'https://www.figma.com/proto/ztoeI7e5lYQfUyvJtM2x0e/Final-Project-UI-UX-(Copy)?page-id=0%3A1&node-id=2-285&node-type=canvas&viewport=548%2C435%2C0.37&t=tlVegI9UMbAs9Toy-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A2&show-proto-sidebar=1'
+      link: 'https://www.figma.com/proto/ztoeI7e5lYQfUyvJtM2x0e/Final-Project-UI-UX-(Copy)?page-id=0%3A1&node-id=2-285&node-type=canvas&viewport=548%2C435%2C0.37&t=tlVegI9UMbAs9Toy-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A2&show-proto-sidebar=1',
     },
     {
       title: 'Coming Soon..',
@@ -40,7 +40,9 @@ const Project = () => {
             <h2>{project.title}</h2>
             <p>{project.company}</p>
             <p>{project.description}</p>
-           <a href={project.link} target='_blank'><button>see more</button></a>
+            <a href={project.link} target="_blank">
+              <button>see more</button>
+            </a>
           </div>
         </div>
       ))}

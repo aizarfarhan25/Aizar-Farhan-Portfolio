@@ -120,7 +120,14 @@
         font-size: 15px;
         line-height: 16px;
 
-        &:hover svg {
+        &:hover{
+          color: #ffd700;
+        }
+      }
+      .icon{
+        color: #4d4d4e;
+
+        &:hover{
           color: #ffd700;
         }
       }

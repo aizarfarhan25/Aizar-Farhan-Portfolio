@@ -56,25 +56,5 @@
     }
   }
   
-  /* Penyesuaian untuk layar yang lebih kecil seperti ponsel */
-  @media (max-width: 480px) {
-    .logo-container {
-      width: 90vw;
-      top: 3%;
-    }
-  
-    .solid-logo {
-      width: 100%;
-      max-width: 220px;
-      top: 20px;
-    }
-  
-    h1 {
-      font-size: 6vw; /* Ukuran font lebih kecil untuk layar kecil */
-    }
-  
-    p {
-      font-size: 5vw; /* Ukuran teks lebih kecil */
-    }
-  }
+
   

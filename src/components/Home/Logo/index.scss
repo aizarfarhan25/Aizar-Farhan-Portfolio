@@ -1,48 +1,80 @@
 .logo-container {
     z-index: 0;
-    width: 400px;
-    // width: 100vw;
-    height: 609px;
+    width: 40vw;
+    height: auto;
+    max-width: 350px;
     position: absolute;
-    top: 0;
-    // right: 38%;
-    right: 17%;
-    // right: 0;
+    top: 10%;
+    right: 10%;
     bottom: 0;
-    // left: auto;
     margin: auto;
     z-index: 1;
     align-content: end;
-    // opacity: 0;
-
-    // svg {
-    //     width: 100%;
-    //     height: auto;
-    //     bottom: 0;
-    //     transform: rotateZ(30deg) !important;
-    // }
-
-    .solid-logo {
-        position: absolute;
-        // display: block;
-        top: 100px;
-        right: 0;
-        bottom: auto;
-        left: 0;
-        margin: auto;
-        // width: 250%;
-        width: 70%;
-        z-index: 1;
-        border-radius: 50%;
-        border: 5px solid #6AD2D4;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        // opacity: 0;
-        // transform: rotateZ(30deg);
-        // z-index: 1;
+  }
+  
+  .solid-logo {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 70%;
+    max-width: 300px;
+    border-radius: 50%;
+    border: 5px solid #6ad2d4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Penyesuaian untuk perangkat kecil */
+  @media (max-width: 768px) {
+    .logo-container {
+      width: 70vw;
+      right: 0;
+      left: 0;
+      top: 5%; /* Sesuaikan jarak dari atas */
     }
-}
-
-// .svg-container {
-//     stroke: #ffd700;
-//     stroke-width: 10;
-// }
+  
+    .solid-logo {
+      width: 90%;
+      max-width: 250px;
+      top: 30px;
+    }
+  
+    .page {
+      padding: 20px; /* Beri jarak pada konten agar tidak terlalu menempel */
+    }
+  
+    h1 {
+      font-size: 5vw; /* Kurangi ukuran font di layar kecil */
+      text-align: center;
+      line-height: 1.2; /* Atur jarak antar baris */
+    }
+  
+    p {
+      font-size: 4vw; /* Ukuran lebih kecil untuk paragraf */
+      padding: 0 15px; /* Beri padding untuk jarak dari tepi layar */
+    }
+  }
+  
+  /* Penyesuaian untuk layar yang lebih kecil seperti ponsel */
+  @media (max-width: 480px) {
+    .logo-container {
+      width: 90vw;
+      top: 3%;
+    }
+  
+    .solid-logo {
+      width: 100%;
+      max-width: 220px;
+      top: 20px;
+    }
+  
+    h1 {
+      font-size: 6vw; /* Ukuran font lebih kecil untuk layar kecil */
+    }
+  
+    p {
+      font-size: 5vw; /* Ukuran teks lebih kecil */
+    }
+  }
+  

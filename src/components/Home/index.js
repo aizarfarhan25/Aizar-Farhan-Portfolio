@@ -29,7 +29,7 @@ const Home = () => {
     <div className="container home-page">
       <div className="text-zone">
         <h1>
-          <span className={letterClass}>H</span>
+          <span className={`${letterClass} _12`}>H</span>
           <span className={`${letterClass} _12`}>i</span>
           <span className={`${letterClass} _12`}>,</span>
           <br />

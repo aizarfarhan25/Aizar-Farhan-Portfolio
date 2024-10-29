@@ -160,3 +160,188 @@
     overflow: visible;
   }
 }
+
+/* Ukuran layar hingga 640px */
+@media screen and (max-width: 640px) {
+  .page {
+    position: initial;
+  }
+
+  .container {
+    position: initial;
+    height: auto;
+    min-height: auto;
+
+    &.contact-page,
+    &.about-page,
+    &.project-page {
+      .text-zone {
+        width: 90%;
+        padding: 10px;
+        display: block;
+        box-sizing: border-box;
+      }
+    }
+
+    &.project-page {
+      width: 100%;
+      padding: 10px;
+
+      h1.page-title {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 1.2em; /* Ukuran font lebih kecil agar proporsional */
+      }
+
+      .image-box {
+        height: 150px;
+        max-width: 100%; /* Menyebarkan gambar secara penuh pada layar kecil */
+      }
+    }
+  }
+
+  .stage-cube-cont {
+    width: 100%;
+    height: 50px; /* Tinggi minimum agar tidak terlalu sempit */
+    overflow: visible;
+  }
+}
+
+/* Ukuran layar hingga 768px */
+@media screen and (max-width: 768px) {
+  .page {
+    position: initial;
+  }
+
+  .container {
+    position: initial;
+    height: auto;
+    min-height: auto;
+
+    &.contact-page,
+    &.about-page,
+    &.project-page {
+      .text-zone {
+        width: 95%;
+        padding: 15px;
+        display: block;
+        box-sizing: border-box;
+      }
+    }
+
+    &.project-page {
+      width: 100%;
+      padding: 15px;
+
+      h1.page-title {
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 1.3em;
+      }
+
+      .image-box {
+        height: 175px;
+        max-width: 90%; /* Gambar dengan lebar sedikit berkurang */
+      }
+    }
+  }
+
+  .stage-cube-cont {
+    width: 100%;
+    height: 80px;
+    overflow: visible;
+  }
+}
+
+/* Ukuran layar hingga 1024px */
+@media screen and (max-width: 1024px) {
+  .page {
+    position: initial;
+  }
+
+  .container {
+    position: initial;
+    height: auto;
+    min-height: auto;
+
+    &.contact-page,
+    &.about-page,
+    &.project-page {
+      .text-zone {
+        width: 98%;
+        padding: 20px;
+        display: block;
+        box-sizing: border-box;
+      }
+    }
+
+    &.project-page {
+      width: 100%;
+      padding: 20px;
+
+      h1.page-title {
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 1.4em;
+      }
+
+      .image-box {
+        height: 200px;
+        max-width: calc(50% - 10px);
+      }
+    }
+  }
+
+  .stage-cube-cont {
+    width: 100%;
+    height: 100px;
+    overflow: visible;
+  }
+}
+
+/* Ukuran layar hingga 1280px */
+@media screen and (max-width: 1280px) {
+  .page {
+    position: initial;
+  }
+
+  .container {
+    position: initial;
+    height: auto;
+    min-height: auto;
+
+    &.contact-page,
+    &.about-page,
+    &.project-page {
+      .text-zone {
+        width: 100%;
+        padding: 25px;
+        display: block;
+        box-sizing: border-box;
+      }
+    }
+
+    &.project-page {
+      width: 100%;
+      padding: 25px;
+
+      h1.page-title {
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 1.5em;
+      }
+
+      .image-box {
+        height: 250px;
+        max-width: calc(50% - 10px);
+      }
+    }
+  }
+
+  .stage-cube-cont {
+    width: 100%;
+    height: 120px;
+    overflow: visible;
+  }
+}
+

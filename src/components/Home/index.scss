@@ -121,13 +121,116 @@
     margin: auto;
     left: 100;
   }
+}
 
-  // .logo-container svg {
-  //   position: absolute;
-  //   top: auto;
-  //   right: auto;
-  //   bottom: auto;
-  //   left: 0;
-  //   margin: auto;
-  // }
+/* Ukuran layar hingga 640px */
+@media screen and (max-width: 640px) {
+  .tags,
+  .home-page h1:before,
+  .home-page h1:after {
+    display: none;
+  }
+
+  .home-page .text-zone {
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .home-page .flat-button {
+    width: 100px;
+    margin: 15px auto 0;
+  }
+
+  .logo-container {
+    width: 80px;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+/* Ukuran layar hingga 768px */
+@media screen and (max-width: 768px) {
+  .tags,
+  .home-page h1:before,
+  .home-page h1:after {
+    display: none;
+  }
+
+  .home-page .text-zone {
+    width: 95%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .home-page .flat-button {
+    width: 110px;
+    margin: 15px auto 0;
+  }
+
+  .logo-container {
+    width: 90px;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+/* Ukuran layar hingga 1024px */
+@media screen and (max-width: 1024px) {
+  .tags,
+  .home-page h1:before,
+  .home-page h1:after {
+    display: none;
+  }
+
+  .home-page .text-zone {
+    width: 98%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .home-page .flat-button {
+    width: 115px;
+    margin: 20px auto 0;
+  }
+
+  .logo-container {
+    width: 95px;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+/* Ukuran layar hingga 1280px */
+@media screen and (max-width: 1280px) {
+  .tags,
+  .home-page h1:before,
+  .home-page h1:after {
+    display: none;
+  }
+
+  .home-page .text-zone {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .home-page .flat-button {
+    width: 120px;
+    margin: 20px auto 0;
+  }
+
+  .logo-container {
+    width: 100px;
+    top: 45px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
 }

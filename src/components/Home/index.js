@@ -10,7 +10,7 @@ import Loader from 'react-loaders'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['i', 'z', 'a', 'r']
-  const jobArray = ['W', 'e','b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', ' ', '&', ' ', 'Q', 'u','a', 'l', 'i', 't', 'y', ' ', 'A', 's', 's', 'u', 'r', 'a', 'c', 'e']
+  const jobArray = ['W', 'e','b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', ' ', '&', ' ', 'Q', 'u','a', 'l', 'i', 't', 'y', ' ', 'A', 's', 's', 'u', 'r', 'a', 'n', 'c', 'e']
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {

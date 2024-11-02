@@ -16,9 +16,17 @@ const Project = () => {
       title: 'PlantPedia',
       company: 'Project Binus',
       description:
-        ' is a mobile application that provides users with information about various types of plants.',
+        'is a mobile application that provides users with information about various types of plants.',
       time: '2023',
       link: 'https://www.figma.com/proto/ztoeI7e5lYQfUyvJtM2x0e/Final-Project-UI-UX-(Copy)?page-id=0%3A1&node-id=2-285&node-type=canvas&viewport=548%2C435%2C0.37&t=tlVegI9UMbAs9Toy-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A2&show-proto-sidebar=1',
+    },
+    {
+      title: 'EasyTrip',
+      company: 'HTML, CSS, JavaScript',
+      description:
+        'is a responsive website designed to showcase the beauty and diversity of Indonesia.',
+      time: '2024',
+      link: 'https://easytrip-iihjijw7y-aizar-farhans-projects.vercel.app',
     },
     {
       title: 'Coming Soon..',

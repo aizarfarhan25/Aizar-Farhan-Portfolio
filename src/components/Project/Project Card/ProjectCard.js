@@ -29,6 +29,20 @@ const Project = () => {
       link: 'https://easytrip-iihjijw7y-aizar-farhans-projects.vercel.app',
     },
     {
+      title: 'NiuHome',
+      company: 'HTML, CSS, JavaScript',
+      description: 'is a responsive platform designed to simplify your search for the perfect home.',
+      time: '2024',
+      link: 'https://niuhome.site/',
+    },
+    {
+      title: 'Comfie',
+      company: 'HTML, Tailwind CSS, JavaScript',
+      description: 'is a responsive website for finding the perfect interiors for your home or properties.',
+      time: '2024',
+      link: 'https://comfie.site/'
+    },
+    {
       title: 'Coming Soon..',
       company: '...',
       description: 'This project is not finished yet.',
